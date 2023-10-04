@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { writeFileSync } from "fs";
 import { readln } from "./utility";
 
