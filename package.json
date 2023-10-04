@@ -1,0 +1,31 @@
+{
+  "name": "ppm",
+  "version": "1.0.0",
+  "description": "The P programming language package manager",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p-programming-language/ppm.git"
+  },
+  "keywords": [
+    "ppm",
+    "plang",
+    "package-manager"
+  ],
+  "author": "R-unic, KevinAlavik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/p-programming-language/ppm/issues"
+  },
+  "homepage": "https://github.com/p-programming-language/ppm#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.2"
+  },
+  "dependencies": {
+    "readline": "^1.3.0",
+    "tslib": "^2.6.2"
+  }
+}
