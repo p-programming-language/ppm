@@ -1,0 +1,17 @@
+use Repository, registerRepo from @ppm
+
+Repository BlueWhale = {
+    name: 'blue whale',
+    author: 'plang',
+    public: true,
+    packages: [
+        {
+            name: 'test',
+            author: 'bob',
+            tar: './bob/test.tar.gz',
+            entry: 'main.p'
+        }
+    ]
+}
+
+registerRepo(BlueWhale)
